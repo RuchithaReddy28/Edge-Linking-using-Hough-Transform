@@ -87,13 +87,13 @@ plt.show()
 ## Output
 
 ### Input image and grayscale image
-![output](?raw=true)
+![output](https://github.com/RuchithaReddy28/Edge-Linking-using-Hough-Transform/blob/main/8.1.png?raw=true)
 
 ### Canny Edge detector output
-![output](?raw=true)
+![output](https://github.com/RuchithaReddy28/Edge-Linking-using-Hough-Transform/blob/main/8.2.png?raw=true)
 
 ### Display the result of Hough transform
-![output](?raw=true)
+![output](https://github.com/RuchithaReddy28/Edge-Linking-using-Hough-Transform/blob/main/8.3.png?raw=true)
 
 ## Result:
 Thus the program is written with python and OpenCV to detect lines using Hough transform. 
