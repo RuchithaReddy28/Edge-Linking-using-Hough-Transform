@@ -62,10 +62,6 @@ plt.imshow(grayImage,'gray')
 cv2.imshow("Original Image",image)
 cv2.imshow("Gray Image",grayImage)
 
-
-
-
-
 # Detect points that form a line using HoughLinesP
 
 lines = cv2.HoughLinesP(cannyEdges,1,np.pi/180,threshold=80,minLineLength = 50,maxLineGap = 250)
@@ -89,16 +85,16 @@ plt.show()
 ## Output:
 ### Input image and grayscale image:
 ### Input Image:
-![output](?raw=true)
+![output](https://github.com/RuchithaReddy28/Edge-Linking-using-Hough-Transform/blob/main/d1.png?raw=true)
 
 ### Grayscale Image:
-![output](?raw=true)
+![output](https://github.com/RuchithaReddy28/Edge-Linking-using-Hough-Transform/blob/main/d2.png?raw=true)
 
 ### Canny Edge detector output:
-![output](?raw=true)
+![output](https://github.com/RuchithaReddy28/Edge-Linking-using-Hough-Transform/blob/main/d3.png?raw=true)
 
 ### Display the result of Hough transform:
-![output](?raw=true)
+![output](https://github.com/RuchithaReddy28/Edge-Linking-using-Hough-Transform/blob/main/d4.png?raw=true)
 
 ## Result:
 Thus the program is written with python and OpenCV to detect lines using Hough transform. 
